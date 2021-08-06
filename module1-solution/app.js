@@ -8,7 +8,7 @@ LunchCheckController.$inject=['$scope'];
 function LunchCheckController($scope) {
   $scope.lunchmenu= " ";
   $scope.fooditems = 0;
-  $scope.message = "";
+  $scope.message = "Enter Elements";
   $scope.color="green";
 
   console.log(LunchCheckController);
